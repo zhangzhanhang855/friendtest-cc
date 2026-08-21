@@ -54,6 +54,13 @@ body {
 }
 [data-theme="dark"] body { background: #05070d; }
 
+/* English Interface Font Override */
+:lang(en),
+[lang="en"],
+[lang="en"] * {
+  font-family: "Google Sans", sans-serif !important;
+}
+
 /* ============ 手机外框 ============ */
 .phone {
   width: 100%;
