@@ -34,7 +34,7 @@ from datetime import datetime
 from urllib.parse import urlparse, parse_qs, quote
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.normpath(os.path.join(BASE_DIR, "..", "stock-app"))
+ROOT = BASE_DIR
 DATA_DIR = os.path.join(BASE_DIR, "data")
 DATA_FILE = os.path.join(DATA_DIR, "store.json")
 PORT = int(os.environ.get("PORT", "8080"))
